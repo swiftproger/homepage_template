@@ -180,3 +180,56 @@ body {
 .card-button-icon {
     margin-right: 4px;
 }
+
+.developer {
+    padding: 80px 0 20px;
+    display: flex;
+    align-items: center;
+}
+
+.developer-photo {
+    width: 360px;
+    height: 440px;
+    flex-shrink: 0;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.developer-about {
+    margin-left: 55px;
+}
+
+.developer-hello {
+     font-size: 24px;
+    line-height: 135%;
+    letter-spacing: -0.02em;
+    color: #211B12;
+}
+
+.developer-title {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 125%;
+    letter-spacing: -0.03em;
+    color: #BF7506;
+    margin-top: 4px;
+    margin-bottom: 16px;
+
+}
+
+.developer-text {
+    font-size: 16px;
+    line-height: 150%;
+    color: #211B12;
+}
+
+.motto {
+    font-size: 24px;
+    line-height: 150%;
+    color: #DD9C3C;
+    margin: 16px 0;
+}
+
+.developer-sing {
+    max-width: 200px;
+}
