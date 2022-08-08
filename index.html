@@ -13,19 +13,19 @@
 </head>
 <body>
 <div class="navbar container">
-    <img src="images/logo.svg" alt="logo">
+    <img src="images/logo.svg" alt="logo" class="navbar-logo">
     <nav class="navigation">
         <ui class="nav-list">
-            <li class="nav-item"><a href="#" class="nav-link activ">Главная</a></li>
-            <li class="nav-item"><a href="#" class="nav-link">Проекты</a></li>
-            <li class="nav-item"><a href="#" class="nav-link">Обо мне</a></li>
-            <li class="nav-item"><a href="#" class="nav-link">Связаться </a></li>
+            <li class="nav-item"><a href="#main" class="nav-link activ">Главная</a></li>
+            <li class="nav-item"><a href="#porfolio" class="nav-link">Проекты</a></li>
+            <li class="nav-item"><a href="#developer" class="nav-link">Обо мне</a></li>
+            <li class="nav-item"><a href="#feedback" class="nav-link">Связаться</a></li>
         </ui>
     </nav>
 </div>
 <!-- ./navbar -->
 
-<header class="header container">
+<header class="header container" id="main">
     <img src="images/avatar.png" alt="avatar" class="header-photo">
     <!-- /.header-photo -->
 
@@ -64,7 +64,7 @@
 
 </header>
 <!-- /.header -->
-<section class="porfolio">
+<section class="porfolio" id="porfolio">
     <div class="container">
         <h2 class="section-heading">Проекты</h2>
         <div class="cards">
@@ -128,7 +128,7 @@
     </div>
     <!-- /.container -->
 </section>
-<section class="developer container">
+<section class="developer container" id="developer">
     <img src="images/photo.jpg" alt="" class="developer-photo">
     <div class="developer-about">
         <span class="developer-hello">Рад вас видеть</span>
@@ -146,7 +146,7 @@
     <!-- /.developer-about -->
 </section>
 <!-- /.developer container -->
-<section class="skills container">
+<section class="skills container" id="skills">
     <h2 class="skills-title">Работаю с разными языками и инструментами</h2>
     <ul class="tags">
         <li class="tags-item"><a href="#" class="tag">HTML</a></li>
@@ -156,9 +156,11 @@
     </ul>
 </section>
 <!-- /.skills container -->
-<section class="feedback form-container">
-    <h2 class="feedback-title">Готов обсудить проект...</h2>
-    <form action="#" class="form">
+<section class="feedback" id="feedback">
+    <img src="images/hend.png" alt="hand" class="feedback-hand">
+    <div class="form-container">
+        <h2 class="feedback-title">Готов обсудить проект...</h2>
+        <form action="#" class="form">
         <div class="input-group">
             <label for="userName" class="input-label">Имя</label>
             <input id="userName" type="text" class="input">
@@ -178,7 +180,18 @@
         </button>
         </div>
     </form>
+    </div>
+    <!-- /.form-container -->
 </section>
 <!-- /.feedback -->
+<section class="footer container">
+    <div class="footer-body">
+        <span class="footer-author">
+            Александр Новиков - 2018
+        </span>
+    </div>
+</section>
+<!-- /.footer -->
+<script src="js/main.js"></script>
 </body>
 </html>
