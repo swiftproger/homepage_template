@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     font-family: 'Inter', sans-serif;
 }
@@ -7,6 +11,7 @@ body {
     display: flex;
     justify-content: space-between;
 }
+
 .nav-list {
     display: flex;
     align-items: center;
@@ -61,6 +66,7 @@ body {
 .header-primary {
     color: #BF7506;
 }
+
 .header-links {
     display: flex;
     align-items: center;
@@ -72,6 +78,7 @@ body {
     display: flex;
     align-items: center;
 }
+
 .social-link {
     display: inline-block;
     padding: 8px;
@@ -200,7 +207,7 @@ body {
 }
 
 .developer-hello {
-     font-size: 24px;
+    font-size: 24px;
     line-height: 135%;
     letter-spacing: -0.02em;
     color: #211B12;
@@ -244,4 +251,62 @@ body {
     line-height: 135%;
     letter-spacing: -0.02em;
     color: #211B12;
+}
+
+.feedback {
+    padding: 80px 0 160px;
+}
+
+.input-group {
+    position: relative;
+    padding-top: 9px;
+    padding-bottom: 24px;
+}
+
+.input-label {
+    position: absolute;
+    font-size: 16px;
+    line-height: 150%;
+    color: #83807C;
+    padding: 0 8px;
+    background: #FFFFFF;
+    top: 0;
+    left: 16px;
+}
+
+.input {
+    border: 3px solid #E0DEDC;
+    border-radius: 4px;
+    width: 435px;
+    height: 56px;
+}
+
+.textarea {
+    min-height: 140px;
+}
+
+.form-container {
+    max-width: 435px;
+    margin: auto;
+}
+
+.submit-button {
+    padding: 7px 8px;
+    margin-left: 55px;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+    color: #211B12;
+    border: none;
+    border-bottom: 2px solid #BF7506;
+    background-color: #FFFFFF;
+    cursor: pointer;
+}
+
+.button-group {
+    display: flex;
+    justify-content: flex-end;
 }
