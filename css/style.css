@@ -233,3 +233,15 @@ body {
 .developer-sing {
     max-width: 200px;
 }
+
+.skills {
+    padding: 20px 0;
+}
+
+.skills-title {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 135%;
+    letter-spacing: -0.02em;
+    color: #211B12;
+}
